@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #454e56;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#f8f8f8] min-h-screen;
+}
+
+.nav-items li {
+  @apply block md:my-0 my-3 md:inline-block;
+}
+
+.nav-items li a {
+  @apply block capitalize lg:inline-block lg:mt-0 text-orange-500 px-3 font-medium duration-200 hover:text-orange-600;
+}
+
+.nav-items .active-link{
+  @apply text-orange-300
+}
+
+.hero .hero-img img {
+  @apply max-w-[18.75rem] mx-auto;
+}
+
+.hero .mouse {
+  @apply mx-auto relative rounded-[45%] flex w-[1.625rem] h-[2.5rem] border-2 border-[#454e56];;
+}
+
+.hero .mouse .dot {
+  @apply w-[6px] h-[6px] absolute my-[5px] rounded-full bg-black;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: dot 1s infinite ease-in-out;
+  -webkit-animation: dot 1s infinite ease-in-out;
+}
+
+.about .greyscale img {
+  @apply filter grayscale duration-300 hover:grayscale-0;
+}
+
+.btn-primary-lg {
+  @apply py-3 lg:py-4 px-5 lg:px-8 md:text-lg lg:text-xl font-semibold rounded bg-[#454e56] text-white duration-300 hover:bg-[#f97316];
+}
+
+.btn-light {
+  @apply text-white bg-[#ffffff79] duration-300 hover:text-black hover:bg-white;
+}
+
+.section-title{
+  @apply text-4xl font-bold text-orange-400;
+}
+
+.projects .project-item {
+  @apply relative mb-10 rounded overflow-hidden;
+}
+
+.projects .project-item .desc {
+  @apply absolute left-5 bottom-5;
+}
+
+.projects .project-item .desc h2 {
+  @apply text-lg sm:text-3xl md:text-2xl lg:text-3xl text-white font-bold bg-orange-500 rounded p-2 inline-block;
+}
+
+.projects .project-item .desc a {
+  @apply btn-light px-2 md:px-5 py-4 inline-block mb-3;
+}
+
+.services .service {
+  @apply bg-white p-7 h-full py-6 rounded flex flex-col justify-center items-center;
+}
+
+.services .service .icon {
+  @apply flex flex-col justify-center items-center text-5xl;
+}
+
+.services .service h1 {
+  @apply text-center text-2xl font-bold my-5;
+}
+
+.services .service p {
+  @apply font-medium text-center;
+}
+
+.services .icon {
+  @apply relative rounded-full h-[90px] w-[90px] border border-[#b2becd];
+}
+
+.services .icon::after {
+  @apply absolute h-[10px] w-[10px] absolute top-[-5px] bg-[#b2becd] rounded-full;
+  content: "";
+  left: calc(50% - 5px);
+}
+
+.news .news-text {
+  @apply absolute cursor-pointer bg-[#f8f8f8] w-[94%] h-[96%] top-[50%] left-[50%] duration-500;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.news:hover > .news-text {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.form-group label {
+  @apply bg-[#f8f8f8];
+}
+
+.input-primary{
+  @apply w-full p-3 md:text-lg rounded bg-[#f8f8f8] border border-[#b2becd];
+}
+
+.input-error{
+  @apply w-full p-3 text-lg rounded bg-[#f8f8f8] border border-red-400 outline-red-400;
+}
+
+.error-msg{
+  @apply text-[.9rem] text-red-400
+}
+
+@-webkit-keyframes dot {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  10% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, 25px);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes dot {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  10% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, 25px);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
