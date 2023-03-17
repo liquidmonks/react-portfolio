@@ -1,11 +1,41 @@
-import React from 'react';
-// First we import our Hello component from our components folder.
-import Hello from './components/Hello';
+// Import the necessary libraries and components
+import React, { useEffect } from 'react'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import About from './components/home/About'
+import Contact from './components/home/Contact'
+import Hero from './components/home/Hero'
+import News from './components/home/News'
+import Projects from './components/home/Projects'
+import Services from './components/home/Services'
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
-// React apps typically have a single App component at the very top that can reference other React components.
-// This component, `App`, is our main component that is importing `Hello` and rendering it in the return method.
-function App() {
-  return <Hello />;
+// Export the main App component
+export default function App() {
+  // Use the useEffect hook to initialize the AOS library when the component mounts
+  useEffect(() => {
+    AOS.init({ duration: 1500 })
+  }, [])
+
+  // Return a JSX element representing the main content of the app
+  return (
+    <div>
+      {/* Include the Navbar component at the top of the app */}
+      <Navbar />
+
+      {/* Include the main content of the app */}
+      <main className='container lg:px-20 px-0 py-20 mx-auto'>
+        <Hero />
+        <About />
+        <Projects />
+        <Services />
+        <News />
+        <Contact />
+      </main>
+
+      {/* Include the Footer component at the bottom of the app */}
+      <Footer />
+    </div>
+  )
 }
-
-export default App;
