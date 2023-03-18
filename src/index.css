@@ -53,7 +53,7 @@ body {
 }
 
 .btn-light {
-  @apply text-white bg-[#ffffff79] duration-300 hover:text-black hover:bg-white;
+  @apply text-white bg-[#46464679] duration-300 hover:text-black hover:bg-white;
 }
 
 .section-title{

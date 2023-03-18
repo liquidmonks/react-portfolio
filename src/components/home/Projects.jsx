@@ -2,7 +2,7 @@ import React from 'react'
 import PasswordGeneratorImg from '../../assets/passwordgenerator.png'
 import WorkSchedulerImg from '../../assets/scheduler.gif'
 import WeatherDashboardImg from '../../assets/weathervane.gif'
-import TechbBlogImg from '../../assets/techblog.gif'
+import TechBlogImg from '../../assets/techblog.gif'
 
 // Define an array of project objects
 const projects = [
@@ -10,25 +10,29 @@ const projects = [
         title: 'Password Generator',
         description: 'Interactive Password Generator',
         imgSrc: PasswordGeneratorImg,
-        link: 'https://github.com/liquidmonks/passwordgenerator',
+        link: 'https://liquidmonks.github.io/passwordgenerator/',
+        repoLink: 'https://github.com/liquidmonks/passwordgenerator',
     },
     {
         title: 'Workday Scheduler',
         description: 'Interactive Work Day Scheduler',
         imgSrc: WorkSchedulerImg,
-        link: 'https://github.com/liquidmonks/Work-Day-Scheduler',
+        link: 'https://liquidmonks.github.io/Work-Day-Scheduler/',
+        repoLink: 'https://github.com/liquidmonks/Work-Day-Scheduler',
     },
     {
         title: 'Weather Dashboard',
         description: 'Interactive Weather Dashboard',
         imgSrc: WeatherDashboardImg,
-        link: 'https://github.com/liquidmonks/weather-dashboard',
+        link: 'https://liquidmonks.github.io/weather-dashboard',
+        repoLink: 'https://github.com/liquidmonks/weather-dashboard',
     },
     {
         title: 'Tech Blog',
         description: 'Interactive M-V-C Tech Blog',
-        imgSrc: TechbBlogImg,
-        link: 'https://github.com/liquidmonks/tech-blog',
+        imgSrc: TechBlogImg,
+        link: 'https://techblogger.herokuapp.com',
+        repoLink: 'https://github.com/liquidmonks/tech-blog',
     },
 ];
 
@@ -60,8 +64,9 @@ export default function Projects() {
                             <div className="desc">
                                 <h2>{project.title}</h2>
                                 <p className="my-2">{project.description}</p>
-                                <div className="inline-block border-b-2 border-white">
-                                    <a href={project.link}>View Project</a>
+                                <div className="inline-block border-b-2 border-blue">
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+                                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                                 </div>
                             </div>
                         </div>
@@ -78,8 +83,9 @@ export default function Projects() {
                             <div className="desc">
                                 <h2>{project.title}</h2>
                                 <p className="my-2">{project.description}</p>
-                                <div className="inline-block border-b-2 border-white">
-                                    <a href={project.link}>View Project</a>
+                                <div className="inline-block border-b-2 border-blue">
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+                                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                                 </div>
                             </div>
                         </div>
