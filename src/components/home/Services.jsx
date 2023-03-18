@@ -35,31 +35,31 @@ const services = [
     {
         title: 'Web Development',
         icon: 'fa fa-laptop-code',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'Expert web development services: Clean, efficient code, HTML/CSS practices, content deployment, maintenance, and enhancement. '
     },
     {
         title: 'Web Design',
         icon: 'fa fa-mobile',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'We offer professional web design services for modern and responsive websites.'
     },
     {
         title: 'Mobile Design',
         icon: 'fa fa-mobile',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'Optimize on-the-go interactions with our mobile UX design service.'
     },
     {
         title: 'Game Development',
         icon: 'fa fa-gamepad',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'From concept to launch, we offer full-service game development. '
     },
     {
         title: 'Software Debugging',
         icon: 'fa fa-bug',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'Solve software bugs with our expert debugging service.'
     },
     {
         title: 'Tech Support',
         icon: 'fa fa-headset',
-        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, quisquam itaque.'
+        description: 'Streamline your IT with our expert tech support service.'
     },
 ]
