@@ -62,7 +62,7 @@ export default function Contact() {
         </div>
         <div className="w-full mb-10">
           <h2 className="text-2xl font-bold">SEND US A MESSAGE</h2>
-          <p className="my-5 font-medium text-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, expedita?</p>
+          <p className="my-5 font-medium text-normal">Send us a message and we'll get back to you promptly.</p>
           <Formik initialValues={initialValues} validationSchema={ContactSchema} onSubmit={handleSubmit}>
             {({ errors, touched }) => (
               <Form>
