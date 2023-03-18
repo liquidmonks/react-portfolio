@@ -1,36 +1,42 @@
 import React from 'react'
-import PlaceholderImg from '../../assets/placeholderimg.png'
+import PasswordGeneratorImg from '../../assets/passwordgenerator.png'
+import WorkSchedulerImg from '../../assets/scheduler.gif'
+import WeatherDashboardImg from '../../assets/weathervane.gif'
+import TechbBlogImg from '../../assets/techblog.gif'
 
 // Define an array of project objects
 const projects = [
     {
         title: 'Password Generator',
         description: 'Interactive Password Generator',
-        imgSrc: PlaceholderImg,
-        link: '/',
+        imgSrc: PasswordGeneratorImg,
+        link: 'https://github.com/liquidmonks/passwordgenerator',
     },
     {
-        title: 'Password Generator',
-        description: 'Interactive Password Generator',
-        imgSrc: PlaceholderImg,
-        link: '/',
+        title: 'Workday Scheduler',
+        description: 'Interactive Work Day Scheduler',
+        imgSrc: WorkSchedulerImg,
+        link: 'https://github.com/liquidmonks/Work-Day-Scheduler',
     },
     {
-        title: 'Password Generator',
-        description: 'Interactive Password Generator',
-        imgSrc: PlaceholderImg,
-        link: '/',
+        title: 'Weather Dashboard',
+        description: 'Interactive Weather Dashboard',
+        imgSrc: WeatherDashboardImg,
+        link: 'https://github.com/liquidmonks/weather-dashboard',
     },
     {
-        title: 'Password Generator',
-        description: 'Interactive Password Generator',
-        imgSrc: PlaceholderImg,
-        link: '/',
+        title: 'Tech Blog',
+        description: 'Interactive M-V-C Tech Blog',
+        imgSrc: TechbBlogImg,
+        link: 'https://github.com/liquidmonks/tech-blog',
     },
 ];
 
 // Define a functional component named "Projects"
 export default function Projects() {
+    const LoadMore = () => {
+        window.open("https://github.com/liquidmonks?tab=repositories", '_blank');
+    };
     return (
         // The root element of the component
         <div className="relative px-2 py-20 projects md:px-5" id="projects">
@@ -83,7 +89,10 @@ export default function Projects() {
 
             {/* Load More button */}
             <div className="w-full text-center">
-                <button className="inline-block px-2 py-4 mb-3 text-4xl font-bold text-orange-400 md:px-5">
+                <button 
+                className="inline-block px-2 py-4 mb-3 text-4xl font-bold text-orange-400 md:px-5"
+                onClick={LoadMore}
+                >
                     Load More...
                 </button>
             </div>

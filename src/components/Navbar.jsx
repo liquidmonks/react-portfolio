@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <nav className="sticky top-0 left-0 w-full z-10 bg-[#454e56] p-4 lg:p-6">
             <div className="container mx-auto flex items-center justify-between flex-wrap">
-                <span className="font-semibold text-lg lg:text-xl tracking-tight text-orange-500">Liquid Monks</span>
+                <a href='/' className="font-semibold text-lg lg:text-xl tracking-tight text-orange-500">Liquid Monks</a>
                 <div className="block md:hidden">
                     <button onClick={() => setOpen(prev => !prev)} className="flex items-center px-3 py-2 border rounded hover:border-white">
                         <i className="fa fa-bars text-orange-500 border-orange-500"></i>

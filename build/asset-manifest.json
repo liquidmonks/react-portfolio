@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd50038d.css",
+    "main.js": "/static/js/main.74bf2442.js",
+    "static/media/LiquidMonksBanner.png": "/static/media/LiquidMonksBanner.160d7997adbdf1e8ab14.png",
+    "static/media/news.jpg": "/static/media/news.af81ca99e5c863e084e1.jpg",
+    "static/media/LiquidMonksProfile.png": "/static/media/LiquidMonksProfile.24a596bb140f7e626706.png",
+    "index.html": "/index.html",
+    "main.bd50038d.css.map": "/static/css/main.bd50038d.css.map",
+    "main.74bf2442.js.map": "/static/js/main.74bf2442.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd50038d.css",
+    "static/js/main.74bf2442.js"
+  ]
+}
