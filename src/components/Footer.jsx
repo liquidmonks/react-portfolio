@@ -13,7 +13,7 @@ export default function Footer() {
                         <i className="fa-brands fa-github text-orange-500 hover:text-orange-300 duration-300"></i>
                     </a>
                      {/* Render link to LinkedIn profile. */}
-                    <a href="https://www.linkedin.com/" target='_blank' rel="noreferrer">
+                    <a href="https://www.linkedin.com/liquidmonks" target='_blank' rel="noreferrer">
                         <i className="fa-brands fa-linkedin text-orange-500 hover:text-orange-300 duration-300"></i>
                     </a>
                 </div>
