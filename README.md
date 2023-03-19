@@ -146,7 +146,8 @@ Overall, the React portfolio page is a powerful tool for showcasing your work an
 
 
 ## Application Demo Snippet
-TODO
+![react](https://user-images.githubusercontent.com/114820394/226148518-ef18b6d1-ca02-48ec-9222-e99c6d1b569c.gif)
+
 
 ## 🔗 Deployed Site Link
 [![Click for Website](https://img.shields.io/badge/website-Click-yellow)](https://liquidmonks.github.io/react-portfolio/)
