@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.069ec285.css",
+    "main.js": "/react-portfolio/static/js/main.ddbd95ac.js",
+    "static/media/weathervane.gif": "/react-portfolio/static/media/weathervane.e5c9178696ed4c2db618.gif",
+    "static/media/techblog.gif": "/react-portfolio/static/media/techblog.5610090ed90aa3bf66e0.gif",
+    "static/media/scheduler.gif": "/react-portfolio/static/media/scheduler.5b3f62cdcc4cafa34102.gif",
+    "static/media/passwordgenerator.png": "/react-portfolio/static/media/passwordgenerator.bb168db458c8d5e944f4.png",
+    "static/media/LiquidMonksBanner.png": "/react-portfolio/static/media/LiquidMonksBanner.160d7997adbdf1e8ab14.png",
+    "static/media/news.jpg": "/react-portfolio/static/media/news.af81ca99e5c863e084e1.jpg",
+    "static/media/LiquidMonksProfile.png": "/react-portfolio/static/media/LiquidMonksProfile.24a596bb140f7e626706.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.069ec285.css.map": "/react-portfolio/static/css/main.069ec285.css.map",
+    "main.ddbd95ac.js.map": "/react-portfolio/static/js/main.ddbd95ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.069ec285.css",
+    "static/js/main.ddbd95ac.js"
+  ]
+}
