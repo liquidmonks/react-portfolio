@@ -146,7 +146,8 @@ Overall, the React portfolio page is a powerful tool for showcasing your work an
 
 
 ## Application Demo Snippet
-![react](https://user-images.githubusercontent.com/114820394/226148518-ef18b6d1-ca02-48ec-9222-e99c6d1b569c.gif)
+![reactLM](https://user-images.githubusercontent.com/114820394/226148764-2ceb260c-a658-4778-9b0a-f4255f04a1c0.gif)
+
 
 
 ## 🔗 Deployed Site Link
